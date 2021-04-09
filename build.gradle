@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+    id 'io.spring.dependency-management' version '1.0.1.RELEASE'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.apache.logging.log4j:log4j-bom:2.14.1'
+    }
+}
+group 'com.swaglabs'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    testCompile 'junit:junit:4.13.2'
+    testImplementation("io.github.bonigarcia:webdrivermanager:4.3.1")
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.10.2'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.10.2'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.1'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    testImplementation group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.7.1'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+    compile(group: 'com.github.javafaker', name: 'javafaker', version: '0.15')
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '0.15'
+
+
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-web', version: '2.14.1'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.14.1'
+    testImplementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+    testImplementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.30'
+    testImplementation group: 'log4j', name: 'log4j', version: '1.2.17'
+
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+
+}
