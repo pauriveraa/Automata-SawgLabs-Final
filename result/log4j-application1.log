@@ -12,3 +12,63 @@
 2021-04-09 16:03:48 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
 2021-04-09 16:04:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
 2021-04-09 16:04:23 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 16:54:33 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 16:54:37 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 16:54:45 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Se ingresa usuario
+2021-04-09 16:54:45 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Se ingresa contraseña
+2021-04-09 16:55:08 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 16:55:11 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 16:55:31 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 16:55:33 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 16:55:54 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:00:12 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:00:16 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:00:23 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Se ingresa usuario
+2021-04-09 17:00:23 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Se ingresa contraseña
+2021-04-09 17:00:44 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:00:47 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:01:06 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:01:08 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:01:26 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:01:30 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:01:33 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Se ingresa usuario
+2021-04-09 17:01:33 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Se ingresa contraseña
+2021-04-09 17:25:31 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:25:48 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:25:56 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Se ingresa usuario
+2021-04-09 17:25:57 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Se ingresa contraseña
+2021-04-09 17:26:10 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:26:14 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:26:18 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:34 - Aggregate credentials user locked
+2021-04-09 17:26:19 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:50 - Validate message user locked
+2021-04-09 17:26:27 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:26:30 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:26:34 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:29 - Aggregate credentials user invalid
+2021-04-09 17:26:35 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:44 - Validate message user invalid
+2021-04-09 17:26:41 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:26:43 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:26:45 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Se ingresa usuario
+2021-04-09 17:26:46 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Se ingresa contraseña
+2021-04-09 17:26:52 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 17:26:52 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:55 - Click in the button cart
+2021-04-09 17:26:54 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:64 - Validate message page products
+2021-04-09 17:48:57 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:49:02 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:49:10 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 17:49:11 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 17:49:14 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:80 - Validate page products
+2021-04-09 17:49:29 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:49:34 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:49:37 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:34 - Aggregate credentials user locked
+2021-04-09 17:49:39 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:50 - Validate message user locked
+2021-04-09 17:49:54 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:49:57 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:50:02 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:29 - Aggregate credentials user invalid
+2021-04-09 17:50:03 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:44 - Validate message user invalid
+2021-04-09 17:50:16 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 17:50:18 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 17:50:20 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 17:50:21 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 17:50:27 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 17:50:28 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:55 - Click in the button cart
+2021-04-09 17:50:29 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:64 - Validate message page products

@@ -29,8 +29,8 @@ public class StepLogin {
     }
 
     Map<Integer, DataUser> userMap = new DataUserDTO().getUsers();
-    @Given("que un cliente potencial conoce la ruta de autenticacion")
-    public void queUnClientePotencialConoceLaRutaDeAutenticacion() {
+    @Given("a potential customer knows the authentication path")
+    public void aPotentialCustomerKnowsTheAuthenticationPath() {
         driver.get("https://www.saucedemo.com/");
         log4j.getLogger().info("Abrir el enlace https://www.saucedemo.com/");
         try {
@@ -40,15 +40,15 @@ public class StepLogin {
         }
     }
 
-    @When("el usuario ingresa credenciales validas")
-    public void elUsuarioIngresaCredencialesValidas()  {
+    @When("user enters valid credentials")
+    public void userEntersValidCredentials()  {
         try{
             LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
             loginPage.sendInfoUserName(userMap.get(1).getUsername());
-            log4j.getLogger().info("Se ingresa usuario");
+            log4j.getLogger().info("Aggregate user");
 
             loginPage.sendIfoPassword(userMap.get(1).getPassword());
-            log4j.getLogger().info("Se ingresa contraseña");
+            log4j.getLogger().info("Aggregate password");
 
             try {
                 ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientAggregateCredentialsLoginPage.png");
@@ -71,12 +71,13 @@ public class StepLogin {
         }
     }
 
-    @Then("tendria una autenticacion correcta")
-    public void tendriaUnaAutenticacionCorrecta() {
+    @Then("i would have a correct authentication")
+    public void iWouldHaveACorrectAuthentication() {
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
         final String expected = "products";
         String actual = loginPage.validateMessageProducts();
         Assertions.assertEquals(expected, actual.toLowerCase(Locale.ROOT));
+        log4j.getLogger().info("Validate page products");
         try {
             ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientAutenticateSuccessLoginPage.png");
         } catch (Exception exception) {

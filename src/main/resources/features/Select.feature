@@ -1,7 +1,8 @@
 Feature: Seleccion de productos
+  Background:
+    Given a potential customer knows the authentication path
+    When user enters valid credentials
 
-  Scenario: Seleccion de productos
-    Given que un cliente potencial conoce la ruta de autenticacion de la pagina
-    When el usuario ingresa credenciales validas para comprar
-    And escoge los productos que desea comprar
-    Then se visualizaran en el carrito de compras
+  Scenario: Select products
+    And choose the products you want to buy
+    Then will then be displayed in the shopping cart

@@ -1,17 +1,19 @@
-Feature: Autenticacion en la pagina
+Feature: Autentication in the page
 
-  Scenario: Autenticacion exitosa
-    Given que un cliente potencial conoce la ruta de autenticacion
-    When el usuario ingresa credenciales validas
-    Then tendria una autenticacion correcta
+  Background:
+    Given a potential customer knows the authentication path
 
-  Scenario: Usuario bloqueado
-    Given que un cliente potencial conoce la ruta para ingresar a la aplicacion
-    When ingresa sus credenciales
-    Then se le responde con un mensaje de usuario bloqueado
+  Scenario: Autentication success
+    When user enters valid credentials
+    Then i would have a correct authentication
 
-  Scenario: Usuario o contrasena invalida
-    Given que un cliente conoce la ruta para ingresar a la aplicacion
-    When ingresa credenciales incorrectas
-    Then se le responde con un mensaje de usuario o contrasena invalida
+  Scenario: User locked
+    When user aggregate credentials
+    Then you are answered with a blocked user message
+
+  Scenario: Usuar o password invalid
+    When user aggregate invalid credentials
+    Then you are answered with a invalid user message
+
+  Scenario:
 
