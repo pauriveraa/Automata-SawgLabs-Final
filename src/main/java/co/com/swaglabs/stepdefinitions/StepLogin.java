@@ -11,6 +11,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.PageFactory;
 import static co.com.swaglabs.stepdefinitions.Hooks.driver;
 import static co.com.swaglabs.stepdefinitions.Hooks.log4j;
@@ -30,7 +32,7 @@ public class StepLogin {
     @Given("que un cliente potencial conoce la ruta de autenticacion")
     public void queUnClientePotencialConoceLaRutaDeAutenticacion() {
         driver.get("https://www.saucedemo.com/");
-        //log4j.getLogger().info("Abrir el enlace https://www.saucedemo.com/");
+        log4j.getLogger().info("Abrir el enlace https://www.saucedemo.com/");
         try {
             ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientInHomeLoginPage.png");
         } catch (Exception exception) {
@@ -40,23 +42,32 @@ public class StepLogin {
 
     @When("el usuario ingresa credenciales validas")
     public void elUsuarioIngresaCredencialesValidas()  {
-        LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-        //log4j.getLogger().info("Se ingresa usuario");
-        loginPage.sendInfoUserName(userMap.get(1).getUsername());
+        try{
+            LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
+            loginPage.sendInfoUserName(userMap.get(1).getUsername());
+            log4j.getLogger().info("Se ingresa usuario");
 
-        //log4j.getLogger().info("Se ingresa contraseña");
-        loginPage.sendIfoPassword(userMap.get(1).getPassword());
+            loginPage.sendIfoPassword(userMap.get(1).getPassword());
+            log4j.getLogger().info("Se ingresa contraseña");
 
-        try {
-            ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientAggregateCredentialsLoginPage.png");
-        } catch (Exception exception) {
-            exception.printStackTrace();
-        }
-        loginPage.clickBtnLogin();
-        try {
-            ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientClickButtonLoginPage.png");
-        } catch (Exception exception) {
-            exception.printStackTrace();
+            try {
+                ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientAggregateCredentialsLoginPage.png");
+            } catch (Exception exception) {
+                exception.printStackTrace();
+
+            }
+            loginPage.clickBtnLogin();
+            try {
+                ScreenshotsHandler.takeSnapShot(driver, suiteEvidenceRoute, "ClientClickButtonLoginPage.png");
+            } catch (Exception exception) {
+                exception.printStackTrace();
+            }
+        }catch (NoSuchElementException ne){
+            log4j.getLogger().error("WebElement not found");
+        }catch(WebDriverException we){
+            log4j.getLogger().error("WebDriver failed: " + we.getAdditionalInformation());
+        }catch (Exception ex){
+            log4j.getLogger().fatal(ex.getMessage());
         }
     }
 
