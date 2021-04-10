@@ -11,9 +11,15 @@ Feature: Autentication in the page
     When user aggregate credentials
     Then you are answered with a blocked user message
 
-  Scenario: Usuar o password invalid
+  Scenario: User password invalid
     When user aggregate invalid credentials
     Then you are answered with a invalid user message
 
-  Scenario:
+  Scenario: Empty username and password
+    When does not add username and password
+    Then you are answered with a message of empty fields
+
+  Scenario: Empty password
+    When does not add password
+    Then you are answered with an empty password field message
 

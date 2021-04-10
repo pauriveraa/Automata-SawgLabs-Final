@@ -72,3 +72,62 @@
 2021-04-09 17:50:27 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
 2021-04-09 17:50:28 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:55 - Click in the button cart
 2021-04-09 17:50:29 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:64 - Validate message page products
+2021-04-09 18:25:54 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:25:58 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:26:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 18:26:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 18:26:13 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:80 - Validate page products
+2021-04-09 18:26:29 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:26:32 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:26:34 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:34 - Aggregate credentials user locked
+2021-04-09 18:26:36 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:50 - Validate message user locked
+2021-04-09 18:26:50 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:26:55 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:27:01 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:29 - Aggregate credentials user invalid
+2021-04-09 18:27:02 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:44 - Validate message user invalid
+2021-04-09 18:27:14 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:27:17 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:27:20 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:30 - Aggregate credentials Empty
+2021-04-09 18:27:23 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:46 - Validate message empty fields
+2021-04-09 18:27:36 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:27:39 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:27:41 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 18:27:42 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 18:27:48 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:49 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:49 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:49 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:51 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:51 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:27:51 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:55 - Click in the button cart
+2021-04-09 18:27:52 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:64 - Validate message page products
+2021-04-09 18:39:04 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:39:07 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:39:15 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 18:39:16 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 18:39:19 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:80 - Validate page products
+2021-04-09 18:39:32 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:39:34 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:39:36 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:34 - Aggregate credentials user locked
+2021-04-09 18:39:38 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:50 - Validate message user locked
+2021-04-09 18:39:53 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:39:55 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:39:59 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:29 - Aggregate credentials user invalid
+2021-04-09 18:40:00 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:44 - Validate message user invalid
+2021-04-09 18:40:14 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:40:16 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:40:19 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:30 - Aggregate credentials Empty
+2021-04-09 18:40:20 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:46 - Validate message empty fields
+2021-04-09 18:40:34 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:40:36 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:40:40 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:30 - Aggregate empty password field
+2021-04-09 18:40:41 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:45 - Validate message empty password field
+2021-04-09 18:40:56 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:23 - Opening website https://www.saucedemo.com/
+2021-04-09 18:40:58 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:35 - Abrir el enlace https://www.saucedemo.com/
+2021-04-09 18:41:00 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:48 - Aggregate user
+2021-04-09 18:41:01 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:51 - Aggregate password
+2021-04-09 18:41:07 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:41:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:41:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:47 - Aggregate products in the cart
+2021-04-09 18:41:09 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:55 - Click in the button cart
+2021-04-09 18:41:10 INFO  co.com.swaglabs.stepdefinitions.Hooks[1]:64 - Validate message page products
